@@ -1,0 +1,29 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inactive-link {
+  color: blueviolet;
+  padding: 0.5rem;
+}
+
+.active-link {
+  color: red;
+}
+
+.test {
+  border: 0.2rem solid #f40c0c;
+  border-radius: 2rem;
+  padding: 50px;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #210677, 0 0 2rem #c80674,
+    0 0 0.8rem #960634, 0 0 2.8rem #b9136e, inset 0 0 1.3rem #b01338;
+}
